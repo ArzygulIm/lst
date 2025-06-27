@@ -14,29 +14,32 @@
 граничные — все числа из 1/2/3 знаков,
 каждого числа по 3 — всего 900.
 
-📂 Структура проекта
-├── JS/               # Реализация на JavaScript
-│   ├── serializer.js
-│   ├── tests.js
-│   └── demo.js
-├── TS/               # Реализация на TypeScript
-│   ├── serializer.ts
-│   ├── tests.ts
-│   └── demo.ts
-├── python/           # Реализация на Python
-│   ├── serializer.py
-│   ├── tests.py
-│   └── demo.py
-├── dist/             # Скомпилированный JS (игнорируется в Git)
-├── node_modules/     # Зависимости Node.js (игнорируются)
-├── tsconfig.json     # Конфиг TypeScript
-├── package.json      # Зависимости и скрипты проекта
-├── .gitignore        # Игнорируемые файлы
-└── README.md         # Описание проекта
+<details>
+  <summary>📂 lst-test/</summary>
 
+  - 📁 **JS/**
+    - 📄 `serializer.js`
+    - 📄 `tests.js`
+    - 📄 `demo.js`
+  - 📁 **TS/**
+    - 📄 `serializer.ts`
+    - 📄 `tests.ts`
+    - 📄 `demo.ts`
+  - 📁 **python/**
+    - 📄 `serializer.py`
+    - 📄 `tests.py`
+    - 📄 `demo.py`
+  - 📁 `dist/`
+  - 📁 `node_modules/`
+  - 📄 `tsconfig.json`
+  - 📄 `package.json`
+  - 📄 `.gitignore`
+  - 📄 `README.md`
+
+</details>
 
 🚀 Быстрый старт
-✅ TypeScript
+# ✅ TypeScript
 # Установка зависимостей
 npm install
 # Компиляция
@@ -44,10 +47,10 @@ npx tsc
 # Запуск демо
 node dist/demo.js
 
-✅ Python
+# ✅ Python
 # Запуск демо
 python python/demo.py
 
-✅ JavaScript
+# ✅ JavaScript
 # Запуск демо
 node JS/demo.js
